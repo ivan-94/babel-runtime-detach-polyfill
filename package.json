@@ -1,6 +1,6 @@
 {
   "name": "babel-runtime-detach-polyfill",
-  "version": "6.26.0",
+  "version": "6.26.0-test",
   "description": "babel selfContained runtime for 6.x detach polyfill",
   "license": "MIT",
   "repository": "https://github.com/ivan-94/babel-runtime-detach-polyfill",
