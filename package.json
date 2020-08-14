@@ -1,12 +1,16 @@
 {
-  "name": "babel-runtime",
+  "name": "babel-runtime-detach-polyfill",
   "version": "6.26.0",
-  "description": "babel selfContained runtime",
+  "description": "babel selfContained runtime for 6.x detach polyfill",
   "license": "MIT",
-  "repository": "https://github.com/babel/babel/tree/master/packages/babel-runtime",
+  "repository": "https://github.com/ivan-94/babel-runtime-detach-polyfill",
   "author": "Sebastian McKenzie <sebmck@gmail.com>",
   "scripts": {
     "build": "node ./scripts/build-dist.js"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org",
+    "access": "public"
   },
   "dependencies": {
     "core-js": "^2.4.0",
